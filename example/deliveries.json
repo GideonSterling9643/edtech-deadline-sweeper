@@ -1,0 +1,19 @@
+[
+  {
+    "course_id": "algebra-201",
+    "delivery_ended_at": "2026-05-01T12:00:00Z",
+    "educator_reported_at": "2026-05-04T09:30:00Z",
+    "learners": [
+      {
+        "learner_id": "learner-42",
+        "deadline": "2026-05-02T12:00:00Z",
+        "object_key": "algebra-201/learner-42.json"
+      },
+      {
+        "learner_id": "learner-77",
+        "deadline": "2026-09-01T12:00:00Z",
+        "object_key": "algebra-201/learner-77.json"
+      }
+    ]
+  }
+]

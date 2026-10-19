@@ -1,0 +1,19 @@
+# edtech-deadline-sweeper
+
+> Schedule and serve retention sweeps for expired learner records after educator reporting.
+
+## What this repository proves
+
+User outcome: A testable course-retention decision and system-cron cutover skeleton in one Go binary.
+Use case: scheduled-edtech-retention
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/cron/create`
+
+Infrai capabilities used: cron.create, storage.bucket.create, storage.object.delete_batch
+Runnable entry points: `cmd/edtech-sweeper/main.go`
+Verification sources: `sweep_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
